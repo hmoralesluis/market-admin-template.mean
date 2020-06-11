@@ -1,0 +1,64 @@
+<div class="content p-0">
+    <div class="login-wrapper">
+       <div class="row m-0">
+          <div class="col-lg-12 pt-4 site-content">
+             <div class="content">
+                <div class="row">
+                   <div class="col-lg-6 mx-auto">
+                      <div class="text-center mb-4">
+                         <h2>Blog Admin</h2>
+                      </div>
+                      <div class="card bg-white shadow border-0">
+                         <div class="card-body px-lg-5 py-lg-5">
+                            <div class="card bg-light">
+                                <div class="card-body">
+                                    <!-- <div *ngIf="activedApp">
+                                        <p><a href="{{externalappurl}}"> < Regresar a {{appdata.name}}</a></p>
+                                    </div> -->
+                                    <div *ngIf="!haveAccess">
+                                      <p style="color: rgb(253, 19, 19)">{{text}}</p>
+                                    </div>
+                                    <form #flogin="ngForm" (ngSubmit)="onLogin()">
+                                        <div class="form-group mb-3">
+                                            <div class="input-group input-group-alternative">
+                                                <div class="input-group-prepend">
+                                                        <span class="input-group-text"><i class="fa fa-envelope"></i></span>
+                                                </div>
+                                                <input class="form-control" placeholder="Email" type="email" email ngModel required name="email">
+                                            </div>
+                                        </div>
+                                        <div class="form-group mb-3">
+                                            <div class="input-group input-group-alternative">
+                                                <div class="input-group-prepend">
+                                                        <span class="input-group-text"><i class="fa fa-unlock-alt"></i></span>
+                                                </div>
+                                                <input class="form-control" placeholder="Password" type="password" ngModel required name="pass">
+                                            </div>
+                                        </div>
+                                        <div class="checkboxes in-row margin-bottom-20">
+                                            <input id="check-a"  type="checkbox" name="keepsession" ngModel>
+                                            <label for="check-a">Kepp session</label>
+                                        </div>
+                                        <div class="text-center">
+                                            <button class="btn btn-primary mt4" type="submit">Login</button>
+                                        </div>
+                                        <div >
+                                            <p><a routerLink='/session/signup'>Create new account +</a></p>
+                                        </div>
+                                        <!-- <div *ngIf="activedApp && appdata.haveRegister">
+                                            <p><a routerLink='/session/signup/{{appdata.identification}}'>Crear nueva cuenta +</a></p>
+                                        </div> -->
+                                    </form>
+                                </div>
+                            </div>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
+    </div>
+  </div>
+  
+  

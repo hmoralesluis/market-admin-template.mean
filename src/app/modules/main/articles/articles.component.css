@@ -1,0 +1,40 @@
+
+.text_slide {
+    color: #ffffff;
+  }
+  #text_slide_1 {
+    font-size: 36px;
+    margin-left: 6%;
+    margin-top: 90px
+  }
+  
+  #text_slide_2 {
+    font-size: 20px;
+    margin-left: 6%;
+    margin-top: 2px
+  }
+  
+  #text_slide_3 {
+    font-size: 14px;
+    margin-left: 8%;
+    margin-top: 35px
+  }
+  
+  label {
+    width: 130px
+  }
+
+  
+  .data {
+    border: 1px #cccccc solid;
+    margin: 15px;
+    padding: 10px;
+    background-color: #f3f3f3;
+  }
+  
+  .danger {
+    color: red;
+  }
+  
+  
+  
